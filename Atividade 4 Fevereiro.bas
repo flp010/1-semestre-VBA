@@ -1,8 +1,8 @@
-Attribute VB_Name = "Módulo2"
+Attribute VB_Name = "MÃ³dulo2"
 Option Explicit
 
 Sub Ex_03()
-'Declaração de variaveis
+'DeclaraÃ§Ã£o de variaveis
 Dim anonasc As Double, idanos As Double, idmeses As Double, iddias As Double, idsemanas As Double
 Dim soma As Double, soma1 As Double, soma2 As Double, soma3 As Double, anoatual As Double
 
@@ -14,7 +14,7 @@ idsemanas = ActiveCell.Offset(0, 2).Value
 iddias = ActiveCell.Offset(0, 3).Value
 anoatual = ActiveCell.Offset(0, 4).Value
 
-'Calculos e operações
+'Calculos e operaÃ§Ãµes
 soma = anoatual - anonasc
 soma1 = soma * 12
 soma2 = soma * 48
@@ -31,7 +31,7 @@ ActiveCell.Offset(1, 0).Select
 End Sub
 
 Sub ex_03_1()
-'declaração de variaveis
+'declaraÃ§Ã£o de variaveis
 Dim anonasc As Double, idanos As Double, idmeses As Double, iddias As Double, idsemanas As Double
 Dim soma As Double, soma1 As Double, soma2 As Double, soma3 As Double, anoatual As Double
 Dim L As Integer
@@ -45,7 +45,7 @@ idsemanas = Cells(L, 4).Value
 iddias = Cells(L, 5).Value
 anoatual = Cells(L, 6).Value
 
-'calculos e operações
+'calculos e operaÃ§Ãµes
 soma = anoatual - anonasc
 soma1 = soma * 12
 soma2 = soma * 48
