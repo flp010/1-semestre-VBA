@@ -1,7 +1,7 @@
-Attribute VB_Name = "Módulo1"
+Attribute VB_Name = "MÃ³dulo1"
 Option Explicit
 Sub ex_02()
-'DECLARAÇÃO DE VARIAVEIS
+'DECLARAÃ‡ÃƒO DE VARIAVEIS
 Dim horas As Double, salario As Double
 Dim vhora As Double, sbruto As Double
 Dim imposto As Double, sliquido As Double
@@ -14,7 +14,7 @@ sbruto = ActiveCell.Offset(0, 1).Value
 imposto = ActiveCell.Offset(0, 2).Value
 sliquido = ActiveCell.Offset(0, 3).Value
 
-'CALCULOS E OPERAÇÕES
+'CALCULOS E OPERAÃ‡Ã•ES
 vhora = (salario / horas) / 2
 sbruto = horas * vhora
 imposto = (sbruto * 3) / 100
@@ -31,7 +31,7 @@ End Sub
 
 Sub ex_02_02()
 
-'DECLARAÇÃO DE VARIAVEIS
+'DECLARAÃ‡ÃƒO DE VARIAVEIS
 Dim horas As Double, salario As Double, vhora As Double, sbruto As Double, imposto As Double, sliquido As Double
 Dim L As Integer
 L = Range("C50").End(xlUp).Row + 1
@@ -44,7 +44,7 @@ sbruto = Cells(L, 4).Value
 imposto = Cells(L, 5).Value
 sliquido = Cells(L, 6).Value
 
-'CALCULOS E OPERAÇÕES
+'CALCULOS E OPERAÃ‡Ã•ES
 vhora = (salario / horas) / 2
 sbruto = horas * vhora
 imposto = (sbruto * 3) / 100
