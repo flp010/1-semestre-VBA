@@ -1,8 +1,8 @@
-Attribute VB_Name = "Módulo1"
+Attribute VB_Name = "MÃ³dulo1"
 Option Explicit
 
 Sub ex_5()
-'Declaração de variaveis
+'DeclaraÃ§Ã£o de variaveis
 Dim vraio As Double, comp As Double, area As Double, vol As Double
 Dim pi As Double
 
@@ -14,7 +14,7 @@ area = ActiveCell.Offset(0, 1).Value
 vol = ActiveCell.Offset(0, 2).Value
 pi = 3.14
 
-'Calculos e operações
+'Calculos e operaÃ§Ãµes
 comp = 2 * pi * vraio
 area = 4 * pi * vraio ^ 2
 vol = (4 * pi * vraio ^ 3) / 3
@@ -29,7 +29,7 @@ End Sub
 
 Sub ex_05_01()
 
-'Declaração de variaveis
+'DeclaraÃ§Ã£o de variaveis
 Dim vraio As Double, comp As Double, area As Double, vol As Double
 Dim pi As Double, L As Integer
 L = Range("b50").End(xlUp).Row + 1
@@ -41,7 +41,7 @@ area = Cells(L, 3).Value
 vol = Cells(L, 4).Value
 pi = 3.14
 
-'Calculos e operações
+'Calculos e operaÃ§Ãµes
 comp = 2 * pi * vraio
 area = 4 * pi * vraio ^ 2
 vol = (4 * pi * vraio ^ 3) / 3
