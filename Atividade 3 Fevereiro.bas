@@ -1,8 +1,8 @@
-Attribute VB_Name = "Módulo1"
+Attribute VB_Name = "MÃ³dulo1"
 Option Explicit
 Sub ex_02()
 
-'DECLARÃO DE VARIAVEIS
+'DECLARÃƒO DE VARIAVEIS
 Dim SALARIO As Double, KW As Double
 Dim VKW As Double, VALOR As Double
 Dim DESCONTO As Double, VFINAL As Double
@@ -15,7 +15,7 @@ VALOR = ActiveCell.Offset(0, 1).Value
 DESCONTO = ActiveCell.Offset(0, 2).Value
 VFINAL = ActiveCell.Offset(0, 3).Value
 
-'CALCULOS E OPERAÇÕES
+'CALCULOS E OPERAÃ‡Ã•ES
 VKW = (SALARIO * 1) / 5
 VALOR = KW * VKW
 DESCONTO = (VALOR * 15) / 100
@@ -32,7 +32,7 @@ End Sub
 
 Sub ex_02_01()
 
-'DECLARÃO DE VARIAVEIS
+'DECLARÃƒO DE VARIAVEIS
 Dim SALARIO As Double, KW As Double
 Dim VKW As Double, VALOR As Double
 Dim DESCONTO As Double, VFINAL As Double
@@ -48,7 +48,7 @@ VALOR = Cells(L, 4).Value
 DESCONTO = Cells(L, 5).Value
 VFINAL = Cells(L, 6).Value
 
-'CALCULOS E OPERAÇÕES
+'CALCULOS E OPERAÃ‡Ã•ES
 VKW = (SALARIO * 1) / 5
 VALOR = KW * VKW
 DESCONTO = (VALOR * 15) / 100
